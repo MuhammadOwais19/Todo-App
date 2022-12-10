@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Todo</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="main-img"></div>
+
+      <div class="content d-flex justify-content-center flex-column mx-auto">
+        <div class="d-flex justify-content-between align-items-center">
+          <h1 class="">TODO</h1>
+          <div class="theme-btn">
+            <img src="images/icon-sun.svg" alt="" class="theme-img" />
+          </div>
+        </div>
+
+        <form action="">
+          <input
+            class="input p-3 my-4 fs-5"
+            type="text"
+            placeholder="Add a todo..."
+          />
+        </form>
+
+        <ul class="elem-parent"></ul>
+
+        <div class="menu d-flex justify-content-between align-items-center p-3">
+          <p class="total fw-normal m-0"><span>0</span> Items left</p>
+
+          <div class="status d-flex">
+            <p class="status-elem active">All</p>
+            <p class="status-elem">Active</p>
+            <p class="status-elem">Completed</p>
+          </div>
+
+          <p class="clear-btn total fw-normal m-0">Clear Completed</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
